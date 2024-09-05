@@ -1,0 +1,165 @@
+Ansys Lumerical 2024 R1 FDTD Solver Version 8.31.3633 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@localhost
+current time: qua set 4 02:42:50 2024
+Running on host: DESKTOP-UCDNE82
+host available memory (GB): 0.491504
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: C:\Program Files\Lumerical\v241\bin\fdtd-engine-msmpi.exe -t 1 -remote -shared-solve-license QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT08QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT48SUQ+NTFkOTg5MTUtYTE0OC00OTU1LWI0ZjItY2NhNTNhYmU1NDI2PC9JRD48VFlQRT5IUENfUEFSQU1FVFJJQzwvVFlQRT48TkFNRT5IUEMgUGFyYW1ldHJpYzwvTkFNRT48SEFORExFUj41ODk1N0BERVNLVE9QLVVDRE5FODI8L0hBTkRMRVI+PC9BTlNZU19MSUNFTlNJTkdfQ09OVEVYVF9EQVRBPgo= C:/Users/lipea/OneDrive/Área de Trabalho/Mestrado UFES/Metasurface/simulações/metasuperficie.fsp
+number of processors is 6
+processors are distributed as: 6x1x1
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 53 x 92 x 92
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.0625 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 53 x 92 x 92
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.078125 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 53 x 92 x 92
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.0625 seconds of CPU time
+0 0
+finished material properties
+Meshing Time: 0.321499 seconds, Init Electrical Material Time: 0.042194 seconds, Init Magnetic Material Time: 0.0011523
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Gaussian source propagating in X
+Starting to add boundary conditions to simulation
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D Periodic BC
+Adding 3D Periodic BC
+Adding 3D Periodic BC
+Adding 3D Periodic BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 52450 total iterations
+0.0610104% complete. Elapsed simulation time: 6.10104e-16 secs. Max time remaining: 58 mins, 48 secs. Auto Shutoff: 1
+1.06768% complete. Elapsed simulation time: 1.06768e-14 secs. Max time remaining: 47 mins, 54 secs. Auto Shutoff: 1
+2.10486% complete. Elapsed simulation time: 2.10486e-14 secs. Max time remaining: 44 mins, 34 secs. Auto Shutoff: 1
+3.14204% complete. Elapsed simulation time: 3.14204e-14 secs. Max time remaining: 43 mins, 2 secs. Auto Shutoff: 1
+4.17921% complete. Elapsed simulation time: 4.17921e-14 secs. Max time remaining: 42 mins, 42 secs. Auto Shutoff: 1
+5.18588% complete. Elapsed simulation time: 5.18588e-14 secs. Max time remaining: 43 mins, 8 secs. Auto Shutoff: 1
+6.22306% complete. Elapsed simulation time: 6.22306e-14 secs. Max time remaining: 42 mins, 32 secs. Auto Shutoff: 1
+7.26024% complete. Elapsed simulation time: 7.26024e-14 secs. Max time remaining: 41 mins, 59 secs. Auto Shutoff: 1
+8.29741% complete. Elapsed simulation time: 8.29741e-14 secs. Max time remaining: 41 mins, 22 secs. Auto Shutoff: 1
+9.33459% complete. Elapsed simulation time: 9.33459e-14 secs. Max time remaining: 40 mins, 47 secs. Auto Shutoff: 1
+10.3718% complete. Elapsed simulation time: 1.03718e-13 secs. Max time remaining: 40 mins, 25 secs. Auto Shutoff: 1
+11.3784% complete. Elapsed simulation time: 1.13784e-13 secs. Max time remaining: 40 mins, 25 secs. Auto Shutoff: 1
+12.4156% complete. Elapsed simulation time: 1.24156e-13 secs. Max time remaining: 40 mins, 13 secs. Auto Shutoff: 1
+13.4528% complete. Elapsed simulation time: 1.34528e-13 secs. Max time remaining: 39 mins, 55 secs. Auto Shutoff: 1
+14.49% complete. Elapsed simulation time: 1.449e-13 secs. Max time remaining: 39 mins, 29 secs. Auto Shutoff: 1
+15.5271% complete. Elapsed simulation time: 1.55271e-13 secs. Max time remaining: 38 mins, 54 secs. Auto Shutoff: 1
+16.5643% complete. Elapsed simulation time: 1.65643e-13 secs. Max time remaining: 38 mins, 26 secs. Auto Shutoff: 1
+17.6015% complete. Elapsed simulation time: 1.76015e-13 secs. Max time remaining: 37 mins, 55 secs. Auto Shutoff: 1
+18.6387% complete. Elapsed simulation time: 1.86387e-13 secs. Max time remaining: 37 mins, 23 secs. Auto Shutoff: 1
+19.6453% complete. Elapsed simulation time: 1.96453e-13 secs. Max time remaining: 36 mins, 52 secs. Auto Shutoff: 1
+20.6825% complete. Elapsed simulation time: 2.06825e-13 secs. Max time remaining: 36 mins, 20 secs. Auto Shutoff: 1
+21.6892% complete. Elapsed simulation time: 2.16892e-13 secs. Max time remaining: 35 mins, 54 secs. Auto Shutoff: 1
+22.7264% complete. Elapsed simulation time: 2.27264e-13 secs. Max time remaining: 35 mins, 23 secs. Auto Shutoff: 1
+23.7635% complete. Elapsed simulation time: 2.37635e-13 secs. Max time remaining: 34 mins, 52 secs. Auto Shutoff: 1
+24.8007% complete. Elapsed simulation time: 2.48007e-13 secs. Max time remaining: 34 mins, 22 secs. Auto Shutoff: 1
+25.8074% complete. Elapsed simulation time: 2.58074e-13 secs. Max time remaining: 33 mins, 57 secs. Auto Shutoff: 1
+26.8141% complete. Elapsed simulation time: 2.68141e-13 secs. Max time remaining: 33 mins, 35 secs. Auto Shutoff: 1
+27.8512% complete. Elapsed simulation time: 2.78512e-13 secs. Max time remaining: 33 mins, 10 secs. Auto Shutoff: 1
+28.8884% complete. Elapsed simulation time: 2.88884e-13 secs. Max time remaining: 32 mins, 44 secs. Auto Shutoff: 1
+29.9256% complete. Elapsed simulation time: 2.99256e-13 secs. Max time remaining: 32 mins, 19 secs. Auto Shutoff: 1
+30.9323% complete. Elapsed simulation time: 3.09323e-13 secs. Max time remaining: 31 mins, 56 secs. Auto Shutoff: 1
+31.9389% complete. Elapsed simulation time: 3.19389e-13 secs. Max time remaining: 31 mins, 31 secs. Auto Shutoff: 1
+32.9761% complete. Elapsed simulation time: 3.29761e-13 secs. Max time remaining: 31 mins, 5 secs. Auto Shutoff: 1
+34.0133% complete. Elapsed simulation time: 3.40133e-13 secs. Max time remaining: 30 mins, 39 secs. Auto Shutoff: 1
+35.0505% complete. Elapsed simulation time: 3.50505e-13 secs. Max time remaining: 30 mins, 13 secs. Auto Shutoff: 1
+36.0876% complete. Elapsed simulation time: 3.60876e-13 secs. Max time remaining: 29 mins, 46 secs. Auto Shutoff: 1
+37.1248% complete. Elapsed simulation time: 3.71248e-13 secs. Max time remaining: 29 mins, 19 secs. Auto Shutoff: 1
+38.162% complete. Elapsed simulation time: 3.8162e-13 secs. Max time remaining: 28 mins, 51 secs. Auto Shutoff: 1
+39.1992% complete. Elapsed simulation time: 3.91992e-13 secs. Max time remaining: 28 mins, 23 secs. Auto Shutoff: 1
+40.2059% complete. Elapsed simulation time: 4.02059e-13 secs. Max time remaining: 27 mins, 58 secs. Auto Shutoff: 1
+41.243% complete. Elapsed simulation time: 4.1243e-13 secs. Max time remaining: 27 mins, 31 secs. Auto Shutoff: 1
+42.2802% complete. Elapsed simulation time: 4.22802e-13 secs. Max time remaining: 27 mins, 1 secs. Auto Shutoff: 1
+43.3174% complete. Elapsed simulation time: 4.33174e-13 secs. Max time remaining: 26 mins, 30 secs. Auto Shutoff: 1
+44.3241% complete. Elapsed simulation time: 4.43241e-13 secs. Max time remaining: 26 mins, 1 secs. Auto Shutoff: 1
+45.3612% complete. Elapsed simulation time: 4.53612e-13 secs. Max time remaining: 25 mins, 30 secs. Auto Shutoff: 1
+46.3984% complete. Elapsed simulation time: 4.63984e-13 secs. Max time remaining: 25 mins, 0 secs. Auto Shutoff: 0.0053154
+47.4356% complete. Elapsed simulation time: 4.74356e-13 secs. Max time remaining: 24 mins, 31 secs. Auto Shutoff: 0.00506623
+48.4728% complete. Elapsed simulation time: 4.84728e-13 secs. Max time remaining: 24 mins, 1 secs. Auto Shutoff: 0.00390856
+49.5099% complete. Elapsed simulation time: 4.95099e-13 secs. Max time remaining: 23 mins, 30 secs. Auto Shutoff: 0.00440994
+50.5471% complete. Elapsed simulation time: 5.05471e-13 secs. Max time remaining: 23 mins, 0 secs. Auto Shutoff: 0.00272677
+51.5538% complete. Elapsed simulation time: 5.15538e-13 secs. Max time remaining: 22 mins, 35 secs. Auto Shutoff: 0.00232503
+52.5605% complete. Elapsed simulation time: 5.25605e-13 secs. Max time remaining: 22 mins, 11 secs. Auto Shutoff: 0.00288104
+53.5976% complete. Elapsed simulation time: 5.35976e-13 secs. Max time remaining: 21 mins, 42 secs. Auto Shutoff: 0.00229183
+54.6348% complete. Elapsed simulation time: 5.46348e-13 secs. Max time remaining: 21 mins, 11 secs. Auto Shutoff: 0.00150919
+55.672% complete. Elapsed simulation time: 5.5672e-13 secs. Max time remaining: 20 mins, 42 secs. Auto Shutoff: 0.00133469
+56.7092% complete. Elapsed simulation time: 5.67092e-13 secs. Max time remaining: 20 mins, 12 secs. Auto Shutoff: 0.00139735
+57.7158% complete. Elapsed simulation time: 5.77158e-13 secs. Max time remaining: 19 mins, 45 secs. Auto Shutoff: 0.000711335
+58.7225% complete. Elapsed simulation time: 5.87225e-13 secs. Max time remaining: 19 mins, 19 secs. Auto Shutoff: 0.000515333
+59.7292% complete. Elapsed simulation time: 5.97292e-13 secs. Max time remaining: 18 mins, 52 secs. Auto Shutoff: 0.000723791
+60.7664% complete. Elapsed simulation time: 6.07664e-13 secs. Max time remaining: 18 mins, 23 secs. Auto Shutoff: 0.000567773
+61.773% complete. Elapsed simulation time: 6.1773e-13 secs. Max time remaining: 17 mins, 55 secs. Auto Shutoff: 0.000394573
+62.8102% complete. Elapsed simulation time: 6.28102e-13 secs. Max time remaining: 17 mins, 27 secs. Auto Shutoff: 0.000498131
+63.8169% complete. Elapsed simulation time: 6.38169e-13 secs. Max time remaining: 16 mins, 59 secs. Auto Shutoff: 0.000504205
+64.8541% complete. Elapsed simulation time: 6.48541e-13 secs. Max time remaining: 16 mins, 30 secs. Auto Shutoff: 0.000328562
+65.8912% complete. Elapsed simulation time: 6.58912e-13 secs. Max time remaining: 16 mins, 2 secs. Auto Shutoff: 0.000331797
+66.9284% complete. Elapsed simulation time: 6.69284e-13 secs. Max time remaining: 15 mins, 34 secs. Auto Shutoff: 0.000387232
+67.9656% complete. Elapsed simulation time: 6.79656e-13 secs. Max time remaining: 15 mins, 5 secs. Auto Shutoff: 0.000223001
+69.0028% complete. Elapsed simulation time: 6.90028e-13 secs. Max time remaining: 14 mins, 36 secs. Auto Shutoff: 0.000165258
+70.0399% complete. Elapsed simulation time: 7.00399e-13 secs. Max time remaining: 14 mins, 7 secs. Auto Shutoff: 0.000259519
+71.0466% complete. Elapsed simulation time: 7.10466e-13 secs. Max time remaining: 13 mins, 40 secs. Auto Shutoff: 0.000179888
+72.0533% complete. Elapsed simulation time: 7.20533e-13 secs. Max time remaining: 13 mins, 12 secs. Auto Shutoff: 0.000170773
+73.0905% complete. Elapsed simulation time: 7.30905e-13 secs. Max time remaining: 12 mins, 42 secs. Auto Shutoff: 0.000174343
+74.1276% complete. Elapsed simulation time: 7.41276e-13 secs. Max time remaining: 12 mins, 11 secs. Auto Shutoff: 0.000205497
+75.1648% complete. Elapsed simulation time: 7.51648e-13 secs. Max time remaining: 11 mins, 41 secs. Auto Shutoff: 0.000146198
+76.202% complete. Elapsed simulation time: 7.6202e-13 secs. Max time remaining: 11 mins, 12 secs. Auto Shutoff: 0.000102242
+77.2087% complete. Elapsed simulation time: 7.72087e-13 secs. Max time remaining: 10 mins, 44 secs. Auto Shutoff: 0.000167725
+78.2458% complete. Elapsed simulation time: 7.82458e-13 secs. Max time remaining: 10 mins, 15 secs. Auto Shutoff: 9.42118e-05
+79.283% complete. Elapsed simulation time: 7.9283e-13 secs. Max time remaining: 9 mins, 46 secs. Auto Shutoff: 8.83467e-05
+80.2897% complete. Elapsed simulation time: 8.02897e-13 secs. Max time remaining: 9 mins, 17 secs. Auto Shutoff: 0.000105402
+81.3269% complete. Elapsed simulation time: 8.13269e-13 secs. Max time remaining: 8 mins, 48 secs. Auto Shutoff: 9.91357e-05
+82.3335% complete. Elapsed simulation time: 8.23335e-13 secs. Max time remaining: 8 mins, 20 secs. Auto Shutoff: 7.25909e-05
+83.3402% complete. Elapsed simulation time: 8.33402e-13 secs. Max time remaining: 7 mins, 52 secs. Auto Shutoff: 5.86507e-05
+84.3469% complete. Elapsed simulation time: 8.43469e-13 secs. Max time remaining: 7 mins, 23 secs. Auto Shutoff: 8.92471e-05
+85.384% complete. Elapsed simulation time: 8.5384e-13 secs. Max time remaining: 6 mins, 54 secs. Auto Shutoff: 5.07432e-05
+86.4212% complete. Elapsed simulation time: 8.64212e-13 secs. Max time remaining: 6 mins, 25 secs. Auto Shutoff: 4.3047e-05
+87.4737% complete. Elapsed simulation time: 8.74737e-13 secs. Max time remaining: 5 mins, 56 secs. Auto Shutoff: 6.17525e-05
+88.4803% complete. Elapsed simulation time: 8.84803e-13 secs. Max time remaining: 5 mins, 28 secs. Auto Shutoff: 5.11286e-05
+89.487% complete. Elapsed simulation time: 8.9487e-13 secs. Max time remaining: 5 mins, 0 secs. Auto Shutoff: 3.63037e-05
+90.5242% complete. Elapsed simulation time: 9.05242e-13 secs. Max time remaining: 4 mins, 31 secs. Auto Shutoff: 3.22707e-05
+91.5614% complete. Elapsed simulation time: 9.15614e-13 secs. Max time remaining: 4 mins, 2 secs. Auto Shutoff: 4.35351e-05
+92.568% complete. Elapsed simulation time: 9.2568e-13 secs. Max time remaining: 3 mins, 33 secs. Auto Shutoff: 2.54786e-05
+93.5747% complete. Elapsed simulation time: 9.35747e-13 secs. Max time remaining: 3 mins, 5 secs. Auto Shutoff: 2.0569e-05
+94.5814% complete. Elapsed simulation time: 9.45814e-13 secs. Max time remaining: 2 mins, 36 secs. Auto Shutoff: 3.29778e-05
+95.588% complete. Elapsed simulation time: 9.5588e-13 secs. Max time remaining: 2 mins, 7 secs. Auto Shutoff: 2.65784e-05
+96.6252% complete. Elapsed simulation time: 9.66252e-13 secs. Max time remaining: 1 min, 37 secs. Auto Shutoff: 1.96234e-05
+97.6319% complete. Elapsed simulation time: 9.76319e-13 secs. Max time remaining: 1 min, 8 secs. Auto Shutoff: 1.9359e-05
+98.6691% complete. Elapsed simulation time: 9.86691e-13 secs. Max time remaining: 38 secs. Auto Shutoff: 2.35577e-05
+99.6757% complete. Elapsed simulation time: 9.96757e-13 secs. Max time remaining: 9 secs. Auto Shutoff: 1.36578e-05
+Completed 52450 iterations, or 9.999985e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+Finished collecting data
+Simulation completed successfully at: qua set 4 03:30:50 2024
+Overall wall time measurements in seconds: 2881.26
+    time to mesh and initialize: 3.90989
+    time to run FDTD simulation: 2876.3
+    time to checkpoint simulation: 0
+    time to finalize data and save to files: 0.445531
+    miscellaneous time: 0.60572
+    FDTD solver speed on process 0: 8.18018 Mnodes/s
+    total FDTD solver speed on 6 processes: 49.0811 Mnodes/s
